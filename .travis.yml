@@ -4,7 +4,7 @@ arch:
   - amd64
   - ppc64le
 go:
-  - "1.13.x"
+  - 1.13
 install:
   - curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | bash
   - go get github.com/mattn/goveralls
